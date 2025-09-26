@@ -1,7 +1,9 @@
 # We Are Hiring 👩‍💻☕
 
 A totally professional, not-at-all sarcastic job posting page for a **Software Engineer**.  
-Because nothing says "join our team" like HTML, caffeine references, and subtle despair.
+Because nothing says "join our team" like a cool website, caffeine references, and subtle despair.
+
+[APPLY NOW!](https://jobs.google.com/about/)
 
 ## ✨ Features
 
