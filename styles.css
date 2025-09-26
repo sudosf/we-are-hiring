@@ -87,7 +87,7 @@ main {
 
   img {
     max-width: 100%;
-    width: calc(1em + 30vw);;
     height: auto;
+    border-radius: 1em;
   }
 }
