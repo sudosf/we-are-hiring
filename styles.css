@@ -18,7 +18,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-size: calc(.5em + 1vw);
+  font-size: calc(.5em + 0.5vw);
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
@@ -75,7 +75,7 @@ main {
 
 .about {
   flex-direction: row;
-  gap: 5em;
+  gap: 2.5em;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -87,6 +87,7 @@ main {
 
   img {
     max-width: 100%;
+    width: calc(1em + 30vw);;
     height: auto;
   }
 }
