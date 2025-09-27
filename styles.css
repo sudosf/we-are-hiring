@@ -18,7 +18,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
@@ -93,5 +93,32 @@ main {
     max-width: 100%;
     height: auto;
     border-radius: 1em;
+  }
+}
+
+.key-responsibilities,
+.what-we-offer {
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  li {
+    position: relative;
+    padding-left: 1.5em;
+  }
+
+  li:before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+  }
+}
+
+.what-we-offer {
+  li:before {
+    color: forestgreen;
   }
 }
